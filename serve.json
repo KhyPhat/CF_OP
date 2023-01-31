@@ -1,0 +1,19 @@
+{
+    "web":{
+        "host":"test.acme.com",
+        "webroot":"test",
+        "hostAlias":[],
+        "http":{
+            "port":"80"
+        }
+    },
+    "app":{
+        "cfengine":"adobe@2018"
+    },
+    "JVM":{
+        "args":"-Duser.country=EN -Duser.language=en"
+    },
+    "cfconfigfile":"cfconfig.json",
+    "name":"test",
+    "debug=true":true 
+}
